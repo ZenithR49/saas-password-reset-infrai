@@ -1,0 +1,9 @@
+{
+  "name": "saas-password-reset-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/password_reset_flow.ts",
+    "test": "node --experimental-strip-types src/password_reset_flow.test.ts"
+  }
+}
